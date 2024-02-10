@@ -16,7 +16,7 @@ const Comments = ({ comments }: CommentsProps) => {
           type='text'
           variant='bordered'
           placeholder='Make a comment'
-          className='w-1/4'
+          className='lg:w-1/4'
           size='sm'
           radius='full'
         />

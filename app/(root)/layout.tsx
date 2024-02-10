@@ -9,7 +9,9 @@ export default async function RootLayout({ children }: LayoutProps) {
     <section className='py-24'>
       <div className='container'>
         <div className='mb-6 flex items-center justify-between border-b-2 border-gray-50 pb-2'>
-          <h1 className='text-3xl font-bold'>TaskPro🎯</h1>
+          <h1 className='text-3xl font-bold'>
+            <span className='max-md:hidden'>TaskPro</span>🎯
+          </h1>
           <div className='flex gap-2'>
             <User
               name='User'
